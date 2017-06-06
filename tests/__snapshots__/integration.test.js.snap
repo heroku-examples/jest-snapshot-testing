@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`web app returns a response 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "number": "7.7.3",
+      "url": "https://s3.amazonaws.com/heroku-nodejs-bins/node/release/linux-x64/node-v7.7.3-linux-x64.tar.gz",
+    },
+    Object {
+      "number": "7.7.4",
+      "url": "https://s3.amazonaws.com/heroku-nodejs-bins/node/release/linux-x64/node-v7.7.4-linux-x64.tar.gz",
+    },
+    Object {
+      "number": "7.8.0",
+      "url": "https://s3.amazonaws.com/heroku-nodejs-bins/node/release/linux-x64/node-v7.8.0-linux-x64.tar.gz",
+    },
+    Object {
+      "number": "7.9.0",
+      "url": "https://s3.amazonaws.com/heroku-nodejs-bins/node/release/linux-x64/node-v7.9.0-linux-x64.tar.gz",
+    },
+  ],
+  "headers": Object {
+    "connection": "close",
+    "content-length": "493",
+    "content-type": "application/json",
+    "date": "Tue, 06 Jun 2017 19:00:03 GMT",
+  },
+  "status": 200,
+}
+`;

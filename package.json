@@ -1,0 +1,21 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.7.x"
+  },
+  "scripts": {
+    "prettify": "prettier --single-quote --write 'src/**/*.js'",
+    "test": "jest --silent"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "prettier": "^0.22.0",
+    "requisition": "^1.7.0"
+  },
+  "dependencies": {
+    "throng": "^4.0.0"
+  }
+}
